@@ -1,0 +1,136 @@
+@media (max-width: 1199.98px) {
+  .roadmap {
+    grid-template-columns: repeat(6, 210px);
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar {
+    padding: 12px 0;
+    background: var(--glass);
+    backdrop-filter: blur(18px);
+  }
+
+  .navbar:not(.scrolled) .nav-link,
+  .navbar:not(.scrolled) .navbar-brand {
+    color: var(--text);
+  }
+
+  .hero,
+  .page-hero {
+    padding-top: 124px;
+  }
+
+  .chart-panel {
+    min-height: 360px;
+    margin-top: 36px;
+  }
+
+  .section-padding {
+    padding: 74px 0;
+  }
+
+  .cta-band {
+    padding: 38px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero {
+    min-height: auto;
+    padding-bottom: 56px;
+  }
+
+  .hero-title {
+    font-size: 2.65rem;
+  }
+
+  .hero-copy {
+    font-size: 1rem;
+  }
+
+  .btn-premium,
+  .btn-ghost {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .candle-chart {
+    height: 210px;
+    gap: 10px;
+    padding: 16px;
+  }
+
+  .candle {
+    width: 13px;
+  }
+
+  .floating-card {
+    position: static;
+    margin-top: 14px;
+    animation: none;
+  }
+
+  .section-title {
+    margin-bottom: 30px;
+  }
+
+  .section-title h2 {
+    font-size: 2.1rem;
+  }
+
+  .feature-card,
+  .service-card,
+  .testimonial-card,
+  .value-card,
+  .contact-panel {
+    padding: 22px;
+  }
+
+  .cta-band {
+    border-radius: 24px;
+    padding: 30px 22px;
+  }
+
+  .gallery-img {
+    height: 220px;
+  }
+
+  .custom-cursor {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .brand-mark {
+    width: 38px;
+    height: 38px;
+    border-radius: 12px;
+  }
+
+  .navbar-brand {
+    font-size: 1.05rem;
+  }
+
+  .hero-title {
+    font-size: 2.25rem;
+  }
+
+  .page-hero {
+    min-height: 50vh;
+  }
+
+  .stat-card {
+    padding: 22px;
+  }
+
+  .float-action {
+    width: 46px;
+    height: 46px;
+    right: 14px;
+  }
+
+  .back-to-top {
+    left: 14px;
+  }
+}
